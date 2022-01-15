@@ -387,11 +387,23 @@
       }
     },
     {
+      "name": "TS Import String",
+      "scope": [
+        "punctuation.definition.string.begin.ts",
+        "punctuation.definition.string.end.ts",
+        "string.quoted.double.ts",
+        "punctuation.definition.string.begin.js",
+        "punctuation.definition.string.end.js",
+        "string.quoted.double.js"
+      ],
+      "settings": {
+        "foreground": "#CBD5E198"
+      }
+    },
+    {
       "name": "Function Punctuation",
       "scope": [
         "punctuation.definition.binding-pattern.array.js",
-        "punctuation.definition.string.begin.js",
-        "punctuation.definition.string.end.js",
         "punctuation.definition.string.template.begin.js",
         "punctuation.definition.string.template.end.js",
         "meta.brace.round.js"

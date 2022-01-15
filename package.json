@@ -2,7 +2,7 @@
   "name": "skye",
   "displayName": "Skye",
   "description": "A dark theme for VS Code that is inspired by the syntax theme used on the TailwindCSS website",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "JamieBradders",
   "repository": {
     "type": "git",
