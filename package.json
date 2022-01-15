@@ -1,21 +1,32 @@
 {
-    "name": "skye",
-    "displayName": "Skye",
-    "description": "A dark theme for VS Code that is inspired by the syntax theme used on the Tailwind website",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Skye",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Skye-color-theme.json"
-            }
-        ]
-    }
+  "name": "skye",
+  "displayName": "Skye",
+  "description": "A dark theme for VS Code that is inspired by the syntax theme used on the TailwindCSS website",
+  "version": "0.0.2",
+  "publisher": "JamieBradders",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamieBradders/Skye-VSCode-Theme"
+  },
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "tailwind theme",
+    "skye theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Skye",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Skye-color-theme.json"
+      }
+    ]
+  }
 }
