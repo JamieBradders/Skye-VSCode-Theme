@@ -4,7 +4,7 @@
   "description": "A dark theme for VS Code that is inspired by the syntax theme used on the TailwindCSS website",
   "version": "0.0.4",
   "publisher": "JamieBradders",
-  "icon": "/icon.png",
+  "icon": "images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/JamieBradders/Skye-VSCode-Theme"
