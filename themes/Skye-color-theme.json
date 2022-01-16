@@ -4,20 +4,25 @@
   "colors": {
     "activityBar.background": "#1e293b",
     "activityBarBadge.background": "#f472b6",
+    "activityBar.foreground": "#93c5fd",
+    "activityBar.activeBorder": "#f472b6",
     "button.background": "#384c6e",
+    "input.background": "#384c6e",
+    "input.border": "#93c5fd",
     "editor.background": "#1e293b",
     "editor.foreground": "#f8fafc",
     "editorGroupHeader.tabsBackground": "#1e293b",
     "editorLineNumber.foreground": "#475569",
     "menu.background": "#1e293b",
-    "sideBarTitle.foreground": "#bbbbbb",
     "sideBar.background": "#1e293b",
     "statusBar.background": "#2f405d",
     "statusBar.noFolderBackground": "#2f405d",
     "statusBar.debuggingBackground": "#2f405d",
     "tab.activeBackground": "#2f405d",
     "tab.inactiveBackground": "#1e293b",
-    "titleBar.activeBackground": "#1e293b"
+    "titleBar.activeBackground": "#1e293b",
+    "welcomePage.tileBackground": "#1e293b",
+    "welcomePage.tileHoverBackground": "#1e293b"
   },
   "tokenColors": [
     {
@@ -46,7 +51,7 @@
       "name": "Invalid",
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#facc15"
+        "foreground": "#f87171"
       }
     },
     {
@@ -372,13 +377,6 @@
         "foreground": "#7dd3fc"
       }
     },
-    // {
-    //   "name": "JS const and stuff",
-    //   "scope": ["source.js storage.type.js"],
-    //   "settings": {
-    //     "foreground": "#F472B6"
-    //   }
-    // },
     {
       "name": "JSX Children",
       "scope": ["meta.jsx.children.js"],
@@ -685,6 +683,30 @@
       "scope": ["markup.table"],
       "settings": {
         "foreground": "#CBD5E1"
+      }
+    },
+    {
+      "name": "Nunjucks - Braces and Template Tags",
+      "scope": [
+        "entity.tag.tagbraces.nunjucks",
+        "storage.type.templatetag.nunjucks"
+      ],
+      "settings": {
+        "foreground": "#CBD5E198"
+      }
+    },
+    {
+      "name": "Nunjucks - Storage Attribute",
+      "scope": ["storage.type.attr.nunjucks"],
+      "settings": {
+        "foreground": "#CBD5E198"
+      }
+    },
+    {
+      "name": "Nunjucks - Keyword Operator",
+      "scope": ["keyword.operator.nunjucks"],
+      "settings": {
+        "foreground": "#F472B6"
       }
     }
   ]
