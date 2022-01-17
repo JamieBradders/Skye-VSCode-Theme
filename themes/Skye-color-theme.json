@@ -2,40 +2,76 @@
   "name": "Skye",
   "type": "dark",
   "colors": {
+    // Global Styles
+    "focusBorder": "#2f405d75",
+
+    // Activity Bar Styles
     "activityBar.background": "#1e293b",
     "activityBarBadge.background": "#f472b6",
     "activityBar.foreground": "#93c5fd",
     "activityBar.activeBorder": "#f472b6",
-    "button.background": "#384c6e",
-    "input.background": "#384c6e",
-    "input.border": "#93c5fd",
+
+    // Button Styles
+    "button.background": "#27354c",
+
+    // Editor Styles
     "editor.background": "#1e293b",
     "editor.foreground": "#f8fafc",
     "editorGroupHeader.tabsBackground": "#1e293b",
     "editorLineNumber.foreground": "#475569",
-    "menu.background": "#1e293b",
-    "panel.border": "#151d2a",
     "editorOverviewRuler.border": "#151d2a",
+
+    // Input Styles
+    "input.background": "#27354c",
+    "input.border": "#384c6e",
+
+    // Keybinding Styles
     "keybindingLabel.background": "#151d2a",
+
+    // Menu Styles
+    "menu.background": "#1e293b",
+
+    // Panel styles
+    "panel.border": "#151d2a",
+    "panelInput.border": "#f472b6",
+
+    // Sidebar styles
     "sideBar.background": "#1e293b",
-    "sideBar.border": "#1e293b",
+    "sideBar.border": "#151d2a",
+    "sideBarSectionHeader.background": "#1e293b",
+
+    // Scrollbar styles
     "scrollbar.shadow": "#1e293b",
+
+    // List styles
+    "list.activeSelectionBackground": "#2f405d",
+    "list.focusOutline": "#f472b6",
+    "list.hoverBackground": "#384c6e",
 
     // Quick Input / Command Palette
     "quickInput.background": "#151d2a",
     "quickInput.foreground": "#64748B",
 
+    // Scrollbar Styles
     "scrollbarSlider.background": "#2f405d75",
     "scrollbarSlider.hoverBackground": "#2f405d",
     "scrollbarSlider.activeBackground": "#2f405d",
+
+    // Status Bar Styles
     "statusBar.background": "#151d2a",
     "statusBar.noFolderBackground": "#151d2a",
     "statusBar.debuggingBackground": "#151d2a",
+
+    // Tab Styles
     "tab.activeBackground": "#151d2a",
     "tab.activeBorder": "#f472b6",
     "tab.inactiveBackground": "#1e293b",
     "tab.hoverBackground": "#27354c",
+
+    // Title Bar Styles
     "titleBar.activeBackground": "#1e293b",
+
+    // Welcome Page Styles
     "welcomePage.tileBackground": "#1e293b",
     "welcomePage.tileHoverBackground": "#1e293b"
   },
