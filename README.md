@@ -2,7 +2,7 @@
 
 Hello, and thank you for downloading my VS Code Theme, Skye.
 
-_Insert screenshot here_
+![Screenshot of the Skye Theme](https://github.com/JamieBradders/Skye-VSCode-Theme/blob/main/images/skye-window.png?raw=true)
 
 ---
 
