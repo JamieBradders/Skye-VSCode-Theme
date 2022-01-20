@@ -21,3 +21,5 @@ If you have downloaded the theme, be prepared to find some bugs. I am constantly
 ## I've Found an Issue!
 
 If you find a problem with the package, please raise an issue on [Skye's Github Page](https://github.com/JamieBradders/Skye-VSCode-Theme). Also, if you would like to contribute to the project, please submit a Pull Request, and I will review it as soon as possible.
+
+**Made with ❤️ by Bradders**
